@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:  proxima-nova, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.header{  
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    background-color    : rgb(0, 102, 167);
+}
+.nav{
+    float: right;
+    width: 1.8rem;
+    margin-top: -6px;
+    margin-right: -48px;
+    cursor: pointer;
+}
+.nav2{
+    color: #ffffff;
+    font-size: 12px;
+    float: right;
+    margin-top: 13px;
+    margin-right: 64px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav3{
+    color: rgb(85, 204, 246);
+    float: right;
+    font-style: normal;
+    font-size:12px ;
+    margin-top: 8px;
+    margin-right: -77px;
+    cursor: pointer;
+}
+
+.nav4{
+    
+    color: rgb(0, 203, 188);
+    float: right;
+    margin-right: 51px;
+    margin-top: -11px;
+    font-size: 31px;
+    font-style: normal;
+    cursor: pointer;
+}
+.t1{
+    color: rgb(123, 91, 91);
+    margin-top: 1%;
+    margin-right: 10px;
+}
+.image1{
+    width: 768px;
+    height: 391px;
+    padding: 1px;
+    float: right ;
+    margin-top: 40px;
+    margin-right:-8px;
+    cursor: pointer;
+}
+.image2{
+    width:50%;
+    float: right;
+    margin-left: 600px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.img3
+{
+   width: 330px;
+   margin-top: 130px;
+   margin-left: 90px;
+}
+.t1{
+    width: 33%;
+    color: rgb(106, 103, 110);
+    font-size: 19px;
+    margin-left: 99px;
+    margin-top: 19px;
+    line-height: 2rem;
+}
+.radio{
+    font-size: 1rem;
+    color: rgb(0, 102, 167);
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    cursor: pointer;
+}
+.radio +.radio{
+    margin-left: 24px;
+    margin-bottom: 30px;
+     color: rgb(0, 102, 167);
+     cursor: pointer;
+}
+.back{
+    width: 55%;
+    margin-bottom: 12px;
+    margin-top: -162px;
+    margin-left: -110px;
+
+}.btn{
+    margin-left: 95px;
+    margin-top: 35px;
+    
+}
+.searchbar{
+    margin-top: 20px;
+    margin-top: 1.5rem;
+    width: 36%;
+    height: 57px;
+    border: 1px solid rgb(182, 223, 238);
+}
+.green{
+    width: 123px;
+    height: 36px;
+    background-color:rgb(0, 171, 0);
+    margin-top: -43px;
+    margin-left: 377px;
+    border-radius: 3px;
+}
+.i1{
+    width: 2.5%;
+    margin-left: 13px;
+    margin-top: -20px;
+    margin-bottom: 13px;
+}
+.s1{
+    color:rgb(182, 223, 238);
+    margin-left: 40px;
+    margin-top: 17px;
+    font-style: normal;
+}
+.loc{
+    width: 1.3rem;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.g1{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -26px;
+    margin-left: 411px;
+}
+.s2{
+    
+    margin-left: 50px;
+    width: 100%;
+    height: 50px;
+    border: 1px;
+    color: 1px solid rgb(122 176 196);
+}
+.o1{
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    color: rgb(95, 136, 163);
+    font-weight: 600;
+    margin-left: 103px;
+    margin-top: 35px;
+}
+.o2{
+    width: 12rem;
+    height: 7rem;
+    border: 0.7px dotted rgb(151, 151, 151);
+    margin-left: 105px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.o3{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+.footer{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(34, 46, 58);
+}
+.f1{
+    width: 19%;
+    margin-top: 43px;
+    margin-left: 47px;
+    font-size: 1rem;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 27px;
+    font-size: 14px;
+    margin-left: 48px;
+    list-style: none;
+    color: rgb(131, 154, 177);
+    font-style: normal;
+    cursor: pointer;
+}
+.f3{
+    float: right;
+    color: rgb(131, 154, 177);
+    margin-right: 302px;
+    margin-top: -92px;
+    font-size: 1.25rem;
+}
+.f4{
+    float: right;
+    width: 9%;
+    margin-top: -50px;
+    margin-right: 324px;
+    cursor: pointer;
+}
+.f5{
+    cursor: pointer;
+    float: right;
+    width: 9%;
+    margin-top: -50px;
+    margin-right: 150px;
+}
+.footer2{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(26, 39, 53);
+    border-top: 1px dotted rgb(82, 98, 116);
+}
+.f6{
+    color: rgb(92, 111, 131);
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 25px;
+
+}
+.chatlogo{
+    cursor: pointer;
+    width: 60px;
+     position: fixed;
+    bottom: 0;
+    z-index: 999;
+    float: right;
+    display: block;
+    right: 0;
+    margin-bottom: 21px;
+    margin-right: 23px;
+    background: none;
+}
